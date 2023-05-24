@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/signinStyles.css" />
+</head>
+
+<body>
+    <div class="top-text-box">
+    <h1>Log in</h1>
+    </div>
+    <form action="/signin" method="post" class="center-divs">
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <button type="submit" href="index.html" class="btn btn-dark btn-lg btn-block">Login</button>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+    </form>
+    <form action="/register" method="post">
+        <div class="container2">
+            <span>New User?</span>
+            <button type="submit" class="btn btn-dark btn-lg btn-block">Register</button>
+        </div>
+    </form>
+
+</body>
