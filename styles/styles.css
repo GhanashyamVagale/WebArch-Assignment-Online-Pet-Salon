@@ -1,0 +1,115 @@
+body{
+    background-image: url('/resources/img1.jpeg');
+    background-repeat: repeat;
+}
+
+.center-divs {
+    text-align: center;
+}
+
+.formdesign{
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 30%;
+    background-color: aliceblue;
+    text-align: center;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.container {
+    border-style: solid;
+}
+
+.card-img-top {
+    height: 225px;
+}
+
+h3 {
+    margin-top: 100px;
+}
+
+.logout {
+    margin-left: 80%;
+}
+
+.card-img-top {
+    width: 18rem;
+}
+
+.card {
+    margin: 10px;
+}
+
+.top-text {
+    text-align: center;
+    margin: 10px 0 50px 0;
+
+}
+
+.top-text-box{
+    background-color: aliceblue;
+}
+
+input{
+    margin: 10px;;
+}
+
+.cards-center {
+    text-align: center;
+    margin-top: 50px;
+    border-style: solid;
+    background-color: rgb(213,231,234);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.card-title{
+    color: rgb(25, 22, 22);
+    font-size: 40px;
+}
+
+.card-text{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+}
+
+.cards-center2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(37,141,158,255);
+    color: rgba(209,226,234,255);
+    font-size: 25px;
+  }
+
+
+  h1{
+    font-family:monospace;
+    font-size: 50px;;
+  }
+
+  .tagline{
+    font-style: italic;
+  }
+
+footer {
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    margin-top: 10px;
+    background-color: rgb(213,231,234);
+    color: black;
+  }
